@@ -1,4 +1,4 @@
-var STACULOUS = require('../lib/softtaculous');
+var STACULOUS = require('../lib/softaculous');
 
 var config = {
   user: process.env.STACULOUS_NAME,
@@ -7,11 +7,11 @@ var config = {
 
 var clexample = new STACULOUS(config);
 
-clexample.licenses('', '', function(err, data){
+clexample.getlicenses('', '', function(err, data){
   if (err) {
     console.log('ERROR');
     console.log(err);
   } else {
-    console.log(data);
+    //console.log(data);
   }
 });

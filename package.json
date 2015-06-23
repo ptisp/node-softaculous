@@ -1,6 +1,6 @@
 {
-  "name": "softtaculous",
-  "description": "SOFTTACULOUS API node client.",
+  "name": "softaculous",
+  "description": "SOFTACULOUS API node client.",
   "version": "0.0.1",
   "author": {
     "name": "PTisp",
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ptisp/node-softtaculous.git"
+    "url": "https://github.com/ptisp/node-softaculous.git"
   },
   "keywords": [
     "cloudlinux"
@@ -28,7 +28,7 @@
   "dependencies": {
     "request": "2.21.x"
   },
-  "main": "./lib/softtaculous",
+  "main": "./lib/softaculous",
   "engines": {
     "node": ">= 0.8"
   }
